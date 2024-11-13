@@ -1,0 +1,76 @@
+/* Menambahkan sedikit efek hover pada card */
+.card:hover {
+    transform: scale(1.05);
+    transition: transform 0.3s ease;
+}
+
+/* Menambahkan bayangan lebih lembut pada card */
+.card {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Menambahkan animasi pada grafik */
+.chart-container {
+    position: relative;
+    height: 300px;  /* Adjust as needed */
+    width: 100%;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+    .card-body i {
+        font-size: 2rem; /* Kecilkan ikon untuk tampilan mobile */
+    }
+
+    .card-body h5 {
+        font-size: 1.2rem;
+    }
+}
+/* Efek hover pada baris tabel */
+table tbody tr:hover {
+    background-color: #f8f9fa;
+}
+
+/* Efek hover pada tombol aksi */
+.btn:hover {
+    opacity: 0.8;
+}
+
+/* Tambahkan padding pada tabel untuk memberikan ruang lebih */
+.table th, .table td {
+    padding: 15px;
+}
+/* Efek hover pada list item */
+.list-group-item:hover {
+    background-color: #f8f9fa;
+    cursor: pointer;
+}
+
+/* Efek hover pada tombol aksi */
+.btn:hover {
+    opacity: 0.8;
+}
+
+/* Margin tambahan pada bagian atas */
+.card-body {
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+/* Efek hover pada baris tabel */
+.table tbody tr:hover {
+    background-color: #f1f1f1;
+}
+
+/* Efek hover pada tombol aksi */
+.btn:hover {
+    opacity: 0.8;
+}
+/* Menambahkan margin di bawah form */
+.form-label {
+    font-weight: bold;
+}
+
+.alert {
+    margin-bottom: 20px;
+}
+
